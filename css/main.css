@@ -1,4 +1,33 @@
 body{
-	margin: 0;
+	margin: 0px;
 	font-family: sans-serif;
+}
+.section{
+	background-color: #673AB7;
+	height: 100vh;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.grid{
+	display: grid;
+	grid-template-columns: 200px 200px 200px 200px;
+}
+
+.grid div {
+	background-color: #448AFF;
+	border-radius: 10px;
+	font-size: 20px;
+	color: #fff;
+	border: 1px solid #512DA8;
+	padding: 7px 14px;
+	margin: 10px;
+}
+
+.grid div:nth-child(odd) {
+	background-color: #311b92;
 }
