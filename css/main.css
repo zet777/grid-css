@@ -41,7 +41,7 @@ body{
 
 .grid2{
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /*перенос колонок на другую строку, когда достигают своего предела*/
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /*перенос колонок на другую строку, когда достигают своего предела*/
 	grid-gap: 20px;
 	width: 100vw;
 	/*grid-auto-rows: minmax(100px, auto);
