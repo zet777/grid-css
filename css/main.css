@@ -41,11 +41,12 @@ body{
 
 .grid2{
 	display: grid;
-	grid-template-columns: minmax(100px, 300px) 1fr 2fr; 
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /*перенос колонок на другую строку, когда достигают своего предела*/
 	grid-gap: 20px;
-	grid-auto-rows: minmax(100px, auto);
+	width: 100vw;
+	/*grid-auto-rows: minmax(100px, auto);
 	grid-template-rows: 200px 200px 3fr;
-	grid-auto-flow: column;
+	grid-auto-flow: column;*/
 }
 
 .grid div {
